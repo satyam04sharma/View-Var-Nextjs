@@ -1,0 +1,8 @@
+.background {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-gray-100);
+  width: 564px;
+  height: 43px;
+}
