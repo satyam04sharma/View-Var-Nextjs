@@ -1,0 +1,46 @@
+/* footer.module.css */
+.rowPagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.footerRow{
+    background-color: var(--color-gray-200);
+    border-top: 1px solid #ccc; /* Example border */
+    padding: 0.5rem;
+
+}
+.item {
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon {
+    display: inline-block; /* Icons displayed inline */
+    margin-right: 0.5rem; /* Space after the icon if there's additional text or elements */
+  }
+
+.button {
+    background-color: var(--color-gray-200);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #ddd; /* Slight change on hover */
+  }
+  
+
+.rowsPerPage {
+    margin-left: auto; /* This will push the rowsPerPage to the end of the flex container */
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+}

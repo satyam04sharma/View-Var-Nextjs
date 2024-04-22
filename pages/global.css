@@ -8,9 +8,9 @@ body {
   --font-inter: Inter;
 
   /* font sizes */
-  --font-size-6xs: 7px;
-  --font-size-7xs: 6px;
-  --font-size-4xs: 9px;
+  --font-size-6xs: 12px;
+  --font-size-7xs: 15px;
+  --font-size-4xs: 20px;
 
   /* Colors */
   --color-gray-100: #fefefe;

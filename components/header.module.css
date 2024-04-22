@@ -6,3 +6,46 @@
   width: 565px;
   height: 49px;
 }
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rowContent {
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.date {
+  display: flex;
+
+}
+
+.time {}
+
+.rowId {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.tableD {
+  padding: 10px 15px;
+  /* Padding within data cells */
+  border-bottom: 1px solid #eee;
+  /* Light border for each data row */
+  text-align: left;
+  /* Align text to the left in data cells */
+  font-size: 0.9rem;
+  /* Slightly smaller font size for data */
+}
